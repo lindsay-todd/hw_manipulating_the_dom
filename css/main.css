@@ -68,7 +68,6 @@ body {
   
   .stone-circle-list-item {
     margin: 0.5rem 0.5rem;
-    margin-left: -2.4rem;
     padding: 0.5rem 0.8rem;
     border: 2px solid hsl(350, 92%, 24%);
     background: #dfdfdf;
