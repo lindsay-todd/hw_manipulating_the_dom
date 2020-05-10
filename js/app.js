@@ -1,4 +1,4 @@
-// adding event listener to page and defining 'submit' and 'delete' as two primary events
+// adding event listeners to page and defining 'submit' and 'delete' as two primary selectors
 
 document.addEventListener('DOMContentLoaded', () => {
     const newItemForm = document.querySelector('#new-item-form');
