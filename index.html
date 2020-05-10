@@ -7,6 +7,9 @@
     <script src="js/app.js"></script>
 </head>
 <body>
+  <img class="animated-gif" src="https://media.giphy.com/media/w85QrP9fQCawU3nTkP/giphy.gif">
+  <h1>THE MEGALITHIC PORTAL™ v1.0</h1>
+  <h3>Listing all UK sites of interest for the modern antiquarian and stone circle enthusiast.</h3>
     <form id="new-item-form">
         <div id="form-wrapper">
           <div class="form-item">
@@ -18,24 +21,27 @@
             <label for="osref" class="primary">OSRef</label>
             <input type="text" id="osref" required/>
           </div>
+
+          <div class="form-item">
+            <label for="nearestTown" class="primary">Nearest Town</label>
+            <input type="text" id="nearestTown" required/>
+          </div>
   
           <div class="form-item">
-            <label for="category" class="primary">Location</label>
-            <select id="category">
+            <label for="condition" class="primary">Condition</label>
+            <select id="condition">
               <option value="" disabled selected></option>
-              <option value="Mainland">Mainland</option>
-              <option value="Islay">Islay</option>
-              <option value="Mull">Mull</option>
-              <option value="Bute">Bute</option>
+              <option value="Bad">Bad</option>
+              <option value="Fair">Fair</option>
+              <option value="OK">OK</option>
+              <option value="Good">Good</option>
+              <option value="Very Good">Very Good</option>
             </select>
           </div>
         </div>
-        <input type="submit" value="save"/>
-      </form>
-  
-      <button id="delete-all">Delete All</button>
-  
-      <h1>The Stone Circles Of Argyle & Bute</h1>
-      <ul id="stone-circle-list"></ul>
+        <input type="submit" value="Save"/>
+        <button id="delete-all">Delete All</button>
+    </form>
+  <ul id="stone-circle-list"></ul>
 </body>
 </html>
